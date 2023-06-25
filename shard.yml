@@ -1,0 +1,25 @@
+name: api_model
+version: 0.1.0
+
+authors:
+  - guto <joaoaugustolanjoni@gmail.com>
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  jennifer:
+    github: imdrasil/jennifer.cr
+    version: "~> 0.12.0"
+  sam:
+    github: imdrasil/sam.cr
+  pg:
+    github: will/crystal-pg
+    version: "= 0.21.0"
+
+targets:
+  api_model:
+    main: src/api_model.cr
+
+crystal: 1.8.2
+
+license: MIT
