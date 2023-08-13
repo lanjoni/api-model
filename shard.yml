@@ -1,4 +1,4 @@
-name: api_model
+name: api-model
 version: 0.1.0
 
 authors:
@@ -7,19 +7,13 @@ authors:
 dependencies:
   kemal:
     github: kemalcr/kemal
-  jennifer:
-    github: imdrasil/jennifer.cr
-    version: "~> 0.12.0"
-  sam:
-    github: imdrasil/sam.cr
   pg:
     github: will/crystal-pg
-    version: "= 0.21.0"
 
 targets:
-  api_model:
-    main: src/api_model.cr
+  crystal-rinha-backend:
+    main: src/main.cr
 
-crystal: 1.8.2
+crystal: 1.9.1
 
 license: MIT

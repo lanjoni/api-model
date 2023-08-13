@@ -1,6 +1,6 @@
 require "./spec_helper"
 
-describe ApiModel do
+describe Api::Model do
   # TODO: Write tests
 
   it "works" do
